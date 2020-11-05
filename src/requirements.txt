@@ -1,0 +1,6 @@
+Adafruit-Blinka==5.7.0
+adafruit-circuitpython-neopixel==6.0.0
+pyserial==3.4
+pyusb==1.1.0
+rpi-ws281x==4.2.5
+RPi.GPIO==0.7.0
