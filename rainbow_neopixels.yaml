@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: rainbow-neopixels
+spec:
+  selector:
+    matchLabels:
+      app: rainbow-neopixels
+  template:
+    metadata:
+      labels:
+        app: rainbow-neopixels
+    spec:
+      containers:
+      - name: rainbow-neopixels
+        image: gcr.io/western-reason-281919/quickstart-image
+        securityContext:
+            privileged: True

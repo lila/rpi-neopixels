@@ -28,6 +28,7 @@ try these commands:
 
 * https://www.balena.io/docs/reference/base-images/base-images/  - where i got my base images from
 * https://blog.hypriot.com/post/setup-simple-ci-pipeline-for-arm-images/ - how to use QEMU for building arm containers
+  * https://github.com/multiarch/qemu-user-static : more details on this
 * https://cloud.google.com/cloud-build/docs/quickstart-build - cloud build quickstart
 * https://learn.adafruit.com/adafruit-neopixel-uberguide/python-circuitpython - neopixel library for raspberry pi
 * https://www.docker.com/blog/containerized-python-development-part-1/ - containerizing python
